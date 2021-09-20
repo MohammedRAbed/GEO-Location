@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GEO Location App</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="geo_location">GEO-Location</string>
+</resources>
