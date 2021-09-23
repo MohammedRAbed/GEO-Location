@@ -24,12 +24,20 @@ class MapsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
+
         mapFragment.getMapAsync({
+
             mMap = it
+
+            /*
             val mLocation = LatLng(-34.0, 151.0)
             mMap.addMarker(MarkerOptions().position(mLocation).title("My Location"))
             mMap.moveCamera(CameraUpdateFactory.newLatLng(mLocation))
+
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mLocation,12f))
+
+             */
+
             if (ActivityCompat.checkSelfPermission(
                     this,
                     Manifest.permission.ACCESS_FINE_LOCATION
@@ -40,6 +48,7 @@ class MapsActivity : AppCompatActivity() {
             ) {
                 Toast.makeText(this,"Missing Permssion",Toast.LENGTH_SHORT).show()
             }
+
             mMap.isMyLocationEnabled = true
         })
     }

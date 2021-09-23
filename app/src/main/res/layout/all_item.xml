@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/perf_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fav4_img" />
+
+    <TextView
+        android:id="@+id/perf_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font_med"
+        android:text="مطعم معاذ و أولاده"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/perf_img"
+        app:layout_constraintTop_toTopOf="@+id/perf_img" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/font_reg"
+        android:text="غزة - شارع xxxxx"
+        android:textColor="@color/orange"
+        app:layout_constraintStart_toStartOf="@+id/perf_name"
+        app:layout_constraintTop_toBottomOf="@+id/perf_name" />
+
+    <TextView
+        android:id="@+id/perf_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/font_reg"
+        android:text="مفتوح حاليا"
+        android:textColor="#00F662"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/perf_name"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

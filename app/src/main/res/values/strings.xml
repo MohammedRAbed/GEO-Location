@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">GEO Location App</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="geo_location">GEO-Location</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="geo_location" translatable="false">GEO-Location</string>
+    <string name="corners" translatable="false">زوايـــــا</string>
+    <string name="main" translatable="false">الرئيسية</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="favorite" translatable="false">المفضلة</string>
+    <string name="my_map" translatable="false">خريطتك</string>
 </resources>

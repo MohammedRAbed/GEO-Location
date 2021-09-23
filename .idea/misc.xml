@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/drawable/ic_app.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/drawable/ic_explore.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/drawable/ic_favorite.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/drawable/ic_maps.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/drawable/whie_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/all_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/favorite_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/fragment_favourite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/layout/perfect_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/GEOLocationProject/app/src/main/res/menu/btm_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
